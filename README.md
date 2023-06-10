@@ -26,7 +26,7 @@ Developed by:S.Dinesh
 
 register no:212222230033
 
-
+```
 #include "common.h" 
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -171,6 +171,7 @@ free(gpuRef);
 CHECK(cudaDeviceReset());
 
 return (0);
+```
 }
 ## Output:
 ![image](https://github.com/Dineshsekhar2004/PCA-Matrix-summation-with-a-2D-grid-and-2D-blocks.-Adapt-it-to-integer-matrix-addition.-/assets/119405916/11c64205-9b5f-498e-96fb-31e35b05deaf)
